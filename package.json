@@ -1,5 +1,5 @@
 {
-  "name": "penpot-plugin-starter-template",
+  "name": "penpot-elm-plugin-starter-template",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -12,7 +12,11 @@
     "@penpot/plugin-types": "0.8.0"
   },
   "devDependencies": {
+    "elm": "0.19.1-5",
+    "elm-tooling": "^1.15.1",
+    "husky": "^8.0.3",
+    "prettier": "2.8.4",
     "typescript": "^5.2.2",
-    "vite": "^5.2.0"
+    "vite-plugin-elm": "2.8.0-beta.3"
   }
 }

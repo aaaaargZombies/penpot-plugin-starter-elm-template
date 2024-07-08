@@ -1,9 +1,6 @@
 import "./style.css";
+import { Elm } from "./Main.elm";
 
-document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
-  <div>
-    <p>Penpot plugin starter template</p>
-
-    <p>Checkout the <a href="">documentation</a> to get started.</p>
-  </div>
-`;
+const app = Elm.Main.init({
+  node: document.getElementById("app"),
+});

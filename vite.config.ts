@@ -1,4 +1,5 @@
 import { defineConfig } from "vite";
+import { plugin as elmPlugin } from "vite-plugin-elm";
 
 export default defineConfig({
   build: {
@@ -12,6 +13,7 @@ export default defineConfig({
       },
     },
   },
+  plugins: [elmPlugin()],
   preview: {
     port: 4400,
   },
