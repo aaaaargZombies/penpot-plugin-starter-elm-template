@@ -1,7 +1,7 @@
 {
-  "name": "Elm Penpot starter plugin ",
+  "name": "Penpot starter Elm plugin ",
   "host": "http://localhost:4400",
   "code": "plugin.js",
-  "description": "This is a starter plugin for Penpot",
+  "description": "This is a starter plugin for Penpot that uses Elm for the interface",
   "permissions": ["page:read", "file:read", "selection:read"]
 }

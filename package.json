@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite build --watch & vite preview",
-    "build": "tsc && vite build"
+    "build": "vite build",
+    "postinstall": "elm-tooling install & husky install"
   },
   "dependencies": {
     "@penpot/plugin-styles": "0.8.0",
